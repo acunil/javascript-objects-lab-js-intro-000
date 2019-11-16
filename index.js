@@ -3,3 +3,7 @@ var recipe = {
   "rice" : "100g"
 };
 
+function updateObjectWithKeyAndValue(object, key, value){
+  object[key]=value;
+}
+
